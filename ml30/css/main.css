@@ -157,8 +157,9 @@ main {
 #slide-marta-quote ul {
     list-style: none;
     text-align: left;
-    font-size: 18px;
+    font-size: 26px;
     font-style: italic;
+    margin: 0 auto;
 }
 #slide-marta-quote ul li:before {
     content: "- ";
@@ -172,6 +173,32 @@ main {
     font-size: 32px;
     font-style: italic;
 }
+
+#slide-laura .bcg {background-image:url('../img/bg-laura.jpg')}
+#slide-laura-video .bcg {background-image:url('../img/bg-laura-video.jpg')}
+#slide-laura-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-laura-quote ul {
+    list-style: none;
+    font-size: 32px;
+    font-style: italic;
+}
+
+#slide-laia .bcg {background-image:url('../img/bg-laia.jpg')}
+#slide-laia-video .bcg {background-image:url('../img/bg-laia-video.jpg')}
+#slide-laia-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-laia-quote ul {
+    list-style: none;
+    font-size: 32px;
+    font-style: italic;
+}
+
+#slide-berta .bcg {background-image:url('../img/bg-berta.jpg')}
+#slide-berta-video .bcg {background-image:url('../img/bg-berta-video.jpg')}
+#slide-berta-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+
+#slide-eva .bcg {background-image:url('../img/bg-eva.jpg')}
+#slide-eva-video .bcg {background-image:url('../img/bg-eva-video.jpg')}
+#slide-eva-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
