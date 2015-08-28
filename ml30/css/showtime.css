@@ -119,10 +119,13 @@ body {
 }
 h2 {
 	margin-top: 0;
-    color: #1c1d1e;
-    font-family: 'Open Sans', sans-serif;
+    color: #4c4d4e;
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-style: italic;
+}
+.heroe {
+    font-size: 40px;
 }
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
@@ -143,21 +146,19 @@ main {
 }
 
 .bcg {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+    background: no-repeat fixed center center;
+    background-size: cover;
 	height: 100%;
 	width: 100%;
 }
 
 #slide-ari .bcg {background-image:url('../img/bg-ari.jpg')}
 #slide-ari-video .bcg {background-image:url('../img/bg-ari-video.jpg')}
-#slide-ari-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-ari-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
 #slide-marta .bcg {background-image:url('../img/bg-marta.jpg')}
 #slide-marta-video .bcg {background-image:url('../img/bg-marta-video.jpg')}
-#slide-marta-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-marta-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 #slide-marta-quote ul {
     list-style: none;
     text-align: left;
@@ -171,7 +172,7 @@ main {
 
 #slide-maria .bcg {background-image:url('../img/bg-maria.jpg')}
 #slide-maria-video .bcg {background-image:url('../img/bg-maria-video.jpg')}
-#slide-maria-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-maria-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 #slide-maria-quote ul {
     list-style: none;
     font-size: 32px;
@@ -180,7 +181,7 @@ main {
 
 #slide-laura .bcg {background-image:url('../img/bg-laura.jpg')}
 #slide-laura-video .bcg {background-image:url('../img/bg-laura-video.jpg')}
-#slide-laura-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-laura-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 #slide-laura-quote ul {
     list-style: none;
     font-size: 32px;
@@ -189,7 +190,7 @@ main {
 
 #slide-laia .bcg {background-image:url('../img/bg-laia.jpg')}
 #slide-laia-video .bcg {background-image:url('../img/bg-laia-video.jpg')}
-#slide-laia-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-laia-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 #slide-laia-quote ul {
     list-style: none;
     font-size: 32px;
@@ -198,15 +199,15 @@ main {
 
 #slide-berta .bcg {background-image:url('../img/bg-berta.jpg')}
 #slide-berta-video .bcg {background-image:url('../img/bg-berta-video.jpg')}
-#slide-berta-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-berta-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
 #slide-eva .bcg {background-image:url('../img/bg-eva.jpg')}
 #slide-eva-video .bcg {background-image:url('../img/bg-eva-video.jpg')}
-#slide-eva-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-eva-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
 #slide-daria .bcg {background-image:url('../img/bg-daria.jpg')}
 #slide-daria-video .bcg {background-image:url('../img/bg-daria-video.jpg')}
-#slide-daria-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+#slide-daria-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
@@ -220,7 +221,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url('../img/bg-luque.jpg')}
 
 /* Slide 5 */
 #slide-5 {position: relative;}
@@ -249,10 +250,26 @@ main {
 	.hsContent h2,
 	.copy h2 {
 		color: #ffffff;
-		font-size: 45px;
+		font-size: 40px;
 		line-height: 48px;
 		margin-bottom: 12px;
 	}
+    .copy h1 {
+        color: #ffffff;
+        font-size: 80px;
+        font-style: normal;
+		margin-bottom: 0;
+        font-weight: normal;
+    }
+    .copy h2 {
+        font-weight: bold;
+        font-size: 65px;
+        font-style: normal;
+    }
+    .copy p {
+        font-size: 20px;
+        color: #dedede;
+    }
 	.hsContent p {
 		width: 400px;
 		margin: 0 auto;
