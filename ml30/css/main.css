@@ -200,6 +200,10 @@ main {
 #slide-eva-video .bcg {background-image:url('../img/bg-eva-video.jpg')}
 #slide-eva-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
 
+#slide-daria .bcg {background-image:url('../img/bg-daria.jpg')}
+#slide-daria-video .bcg {background-image:url('../img/bg-daria-video.jpg')}
+#slide-daria-quote .bcg {background: none; background-color: #2f2f2f; height: 310px; text-align: center;}
+
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
