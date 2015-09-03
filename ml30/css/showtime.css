@@ -209,25 +209,29 @@ main {
 #slide-daria-video .bcg {background-image:url('../img/bg-daria-video.jpg')}
 #slide-daria-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
-/* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+#slide-extra-quote {
+    background: #2f2f2f none; height: 310px; text-align: center;
+}
 
-/* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-extra-quote a {
+    color: #f5f5f5;
+}
 
+#slide-txesco .bcg {background-image:url('../img/bg-txesco.jpg')}
+#slide-txesco-video .bcg {background-image:url('../img/bg-txesco-video.jpg')}
+#slide-txesco-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 
-/* Slide 4 */
+#slide-roy .bcg {background-image:url('../img/bg-roy.jpg')}
+#slide-roy-video .bcg {background-image:url('../img/bg-roy-video.jpg')}
+#slide-roy-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
+
+/* Slide end */
 .curtainContainer {width: 100%; height: 100%; position: relative;}
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
 #slide-4 .bcg {background-image:url('../img/bg-luque.jpg')}
-
-/* Slide 5 */
-#slide-5 {position: relative;}
-#slide-5 .bcg {background-image:url('../img/bcg_slide-5.jpg')}
-#slide-5 .bcg2 {background-image:url('../img/bcg_slide-5b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
+#bg-end .bcg {background-image:url('../img/bg-end.jpg')}
 
 .hsContainer {
 	display: table;
