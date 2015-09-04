@@ -193,8 +193,13 @@ main {
 #slide-laia-quote .bcg {background: #2f2f2f none; height: 310px; text-align: center;}
 #slide-laia-quote ul {
     list-style: none;
-    font-size: 32px;
+    text-align: left;
+    font-size: 26px;
     font-style: italic;
+    margin: 0 auto;
+}
+#slide-laia-quote ul li:before {
+    content: "- ";
 }
 
 #slide-berta .bcg {background-image:url('../img/bg-berta.jpg')}
